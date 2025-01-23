@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import Card from "../components/Card";
-import axios from "axios";
 
 const Products = ({ cardDetails }) => {
   return (
