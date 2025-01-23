@@ -1,17 +1,17 @@
-import React from 'react'
-import {CardsData} from "../data/CardsData"
-import Card from "../components/Card"
+import React, { useEffect, useState } from "react";
 
-const Products = () => {
+import Card from "../components/Card";
+import axios from "axios";
+
+const Products = ({ cardDetails }) => {
   return (
-    <div className='flex gap-5 flex-wrap mx-[4.6rem] mt-10'>
-       {
-        CardsData.map((cardDetail,index) => (
-            <Card cardDetail={cardDetail}/>
-        ))
-       }
+    <div className="flex gap-5 flex-wrap mx-auto justify-center mt-10">
+      {cardDetails &&
+        cardDetails.map((cardDetails, index) => (
+          <Card key={index} cardDetail={cardDetails} />
+        ))}
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;

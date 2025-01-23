@@ -1,18 +1,12 @@
 /* write your css here */
-.btn{
-    background-color: #050303;
-    color:#B88E2F;
-    width: 10rem;
-    padding:0.5rem
-    
+.btn {
+  background-color: #050303;
+  color: #b88e2f;
+  width: 10rem;
+  padding: 0.5rem;
 }
 
-.addCart{
-    background: #000;
-    display: flex;
-    position: absolute;
-    width:100%;
-    height:100%;
-    background-color: transparent;
-    
+html,
+body {
+  overflow-x: hidden;
 }

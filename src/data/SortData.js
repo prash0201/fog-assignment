@@ -1,15 +1,14 @@
 export const SortData = [
-    { 
-      name: "Default",
-      value: "All" ,
-    },
-    { 
-        name: "Brand",
-        value: "Brand" ,
-      },
-      { 
-        name: "Prize",
-        value: "Prize" ,
-      },
-     
-  ];
+  {
+    name: "Default",
+    value: "all",
+  },
+  {
+    name: "Brand",
+    value: "brandName",
+  },
+  {
+    name: "Price",
+    value: "price",
+  },
+];

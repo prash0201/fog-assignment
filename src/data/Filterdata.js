@@ -1,30 +1,34 @@
 export const FilterData = [
-    { 
-      name: "Syltherine",
-      value: "Syltherine" ,
-    },
-    { 
-      name: "Leviosa",
-      value: "Leviosa" ,
-    },
-    { 
-      name: "Lolito",
-      value: "Lolito" ,
-    },
-    { 
-      name: "Respira",
-      value: "Respira" ,
-    },
-    { 
-      name: "Chair",
-      value: "Chair" ,
-    },
-    { 
-      name: "Sofa",
-      value: "Sofa" ,
-      },
-    { 
-      name: "Table and Stool",
-      value: "Table" ,
-    },
-  ];
+  {
+    name: "All",
+    value: "all",
+  },
+  {
+    name: "Leviosa",
+    value: "Leviosa",
+  },
+  {
+    name: "Lolito",
+    value: "Lolito",
+  },
+  {
+    name: "Respira",
+    value: "Respira",
+  },
+  {
+    name: "Stylish Chair",
+    value: "stylishChair",
+  },
+  {
+    name: "Chair",
+    value: "Chair",
+  },
+  {
+    name: "Sofa",
+    value: "Sofa",
+  },
+  {
+    name: "Table and Stool",
+    value: "stool",
+  },
+];
