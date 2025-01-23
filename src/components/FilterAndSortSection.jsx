@@ -16,7 +16,7 @@ const FilterAndSortSection = () => {
       try {
         console.log("filterName", filtername);
         const res = await axios.get(
-          `http://localhost:4000/data/furnitureFilter?value=${filtername}`
+          `hhttps://fog-backend-nr2a.onrender.com/data/furnitureFilter?value=${filtername}`
         );
         setCardDetails(res.data.filterFurnitures);
         console.log("card details", res);
@@ -38,7 +38,7 @@ const FilterAndSortSection = () => {
       try {
         //console.log("filterName", filtername);
         const res = await axios.get(
-          `http://localhost:4000/data/sortByValue?value=${sortByValue}`
+          `https://fog-backend-nr2a.onrender.com/data/sortByValue?value=${sortByValue}`
         );
         setCardDetails(res.data.sortedFurnitures);
         console.log("sort", res);
